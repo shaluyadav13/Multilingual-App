@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0D0BD361CA8BD52001D75B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0BD351CA8BD52001D75B1 /* AppDelegate.swift */; };
-		E0D0BD381CA8BD52001D75B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0BD371CA8BD52001D75B1 /* ViewController.swift */; };
+		E0D0BD381CA8BD52001D75B1 /* MutilingualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D0BD371CA8BD52001D75B1 /* MutilingualViewController.swift */; };
 		E0D0BD3B1CA8BD52001D75B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D0BD391CA8BD52001D75B1 /* Main.storyboard */; };
 		E0D0BD3D1CA8BD52001D75B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0D0BD3C1CA8BD52001D75B1 /* Assets.xcassets */; };
 		E0D0BD401CA8BD52001D75B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D0BD3E1CA8BD52001D75B1 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		E0D0BD321CA8BD52001D75B1 /* Yadav_MultilingualApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yadav_MultilingualApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D0BD351CA8BD52001D75B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0D0BD371CA8BD52001D75B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0D0BD371CA8BD52001D75B1 /* MutilingualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutilingualViewController.swift; sourceTree = "<group>"; };
 		E0D0BD3A1CA8BD52001D75B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0D0BD3C1CA8BD52001D75B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0D0BD3F1CA8BD52001D75B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E0D0BD351CA8BD52001D75B1 /* AppDelegate.swift */,
-				E0D0BD371CA8BD52001D75B1 /* ViewController.swift */,
+				E0D0BD371CA8BD52001D75B1 /* MutilingualViewController.swift */,
 				E0D0BD391CA8BD52001D75B1 /* Main.storyboard */,
 				E0D0BD3C1CA8BD52001D75B1 /* Assets.xcassets */,
 				E0D0BD3E1CA8BD52001D75B1 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D0BD381CA8BD52001D75B1 /* ViewController.swift in Sources */,
+				E0D0BD381CA8BD52001D75B1 /* MutilingualViewController.swift in Sources */,
 				E0D0BD361CA8BD52001D75B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 				E0D0BD5C1CA8BD53001D75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0D0BD5D1CA8BD53001D75B1 /* Build configuration list for PBXNativeTarget "Yadav_MultilingualAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				E0D0BD5F1CA8BD53001D75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0D0BD601CA8BD53001D75B1 /* Build configuration list for PBXNativeTarget "Yadav_MultilingualAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				E0D0BD621CA8BD53001D75B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
